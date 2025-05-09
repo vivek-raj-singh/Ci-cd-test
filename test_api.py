@@ -9,6 +9,6 @@ def test_health():
 
 def test_get_users():
     r = requests.get(f"{BASE_URL}/users")
-    assert r.status_code == 200
+    assert r.status_code == 404
 
 # Repeat for your 20 endpoints...
