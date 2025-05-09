@@ -22,7 +22,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install pytest requests
+        
 
     - name: Run tests
       run: pytest test_api.py
